@@ -1,6 +1,6 @@
 <?php
 // fileuploadname:
-namespace WdevPicture\Model;
+namespace wdev-picture\Model;
 
 use Zend\InputFilter\Factory as InputFactory;
 use Zend\InputFilter\InputFilter;

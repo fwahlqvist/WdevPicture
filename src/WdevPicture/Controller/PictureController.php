@@ -1,12 +1,12 @@
 <?php
 
-namespace WdevPicture\Controller;
+namespace wdev-picture\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController,
     Zend\View\Model\ViewModel;
     
-use WdevPicture\Model\Picture,
-    WdevPicture\Form\PictureForm;
+use wdev-picture\Model\Picture,
+    wdev-picture\Form\PictureForm;
 
 use Zend\Validator\File\Size;
 

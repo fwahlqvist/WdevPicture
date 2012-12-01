@@ -3,7 +3,7 @@
 return array(
   'controllers' => array(
       'invokables' => array(
-          'picture' => 'WdevPicture\Controller\PictureController',
+          'picture' => 'wdev-picture\Controller\PictureController',
       ),
   ),
  /*   
@@ -18,7 +18,7 @@ return array(
                       //'title' => '[a-zA-Z][a-zA-Z0-9_-]*',
                   ),
                   'defaults' => array(
-                      'controller' => 'WdevPicture\Controller\picture',
+                      'controller' => 'wdev-picture\Controller\picture',
                       'action' => 'index', 
                   ),
               ),
