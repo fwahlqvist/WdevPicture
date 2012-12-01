@@ -3,11 +3,6 @@
 echo 'Add...';
 
 $form = $this->form;
-//$form->setAttribute('action',
-//        $this->url('WdevPicture/picture/add', // your route name
-//                    array('controller' => 'picture', 'action' => 'add')));
-
-
 $form->setAttribute('action', $this->url('picture/add'));
 
 $form->prepare();

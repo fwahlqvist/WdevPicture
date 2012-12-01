@@ -11,6 +11,7 @@ class PictureForm extends Form
         parent::__construct('Picture');
         $this->setAttribute('method', 'post');
         $this->setAttribute('enctype', 'multipart/form-data');
+        $this->setAttribute('data-ajax', 'false');
 
         $this->add(array(
             'name' => 'picturename',

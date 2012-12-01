@@ -54,7 +54,9 @@ class PictureController extends AbstractActionController
                     $adapter->setDestination(dirname(__DIR__).'/assets');
                     if ($adapter->receive($File['name'])) {
                             $picture->exchangeArray($form->getData());
-                            echo 'Picture Name '.$picture->picturename.' upload '.$picture->fileupload;
+                            // redirect to picture route
+                            return $this->redirect()->toRoute('picture');
+                            //echo 'Picture Name '.$picture->picturename.' upload '.$picture->fileupload;
                     }
                 }  
             } 
