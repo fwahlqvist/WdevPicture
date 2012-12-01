@@ -1,0 +1,24 @@
+<?php
+// fileuploadname:
+echo 'Add...';
+
+$form = $this->form;
+//$form->setAttribute('action',
+//        $this->url('WdevPicture/picture/add', // your route name
+//                    array('controller' => 'picture', 'action' => 'add')));
+
+
+$form->setAttribute('action', $this->url('picture/add'));
+
+$form->prepare();
+
+echo $this->form()->openTag($form);
+echo $this->formRow($form->get('picturename'));
+
+echo $this->formRow($form->get('fileupload'));
+
+echo $this->formSubmit($form->get('submit'));
+echo $this->form()->closeTag();
+
+
+//echo $this->formCollection($form);
