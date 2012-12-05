@@ -7,7 +7,7 @@
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
-namespace wdev-picture\Controller;
+namespace WdevPicture\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 

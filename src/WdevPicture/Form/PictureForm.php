@@ -1,6 +1,6 @@
 <?php
 // fileuploadname:
-namespace wdev-picture\Form;
+namespace WdevPicture\Form;
 
 use Zend\Form\Form;
 
