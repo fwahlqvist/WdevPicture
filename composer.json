@@ -1,7 +1,11 @@
 {
     "name": "fwahlqvist/wdev-picture",
+    "description": "A ZF2 module to upload individual pictures",
+    "keywords": [
+        "fwahlqvist",
+        "zf2"
+    ],
     "require": {
-        "php": ">=5.3.0",
-        "fwahlqvist/wdev-picture": "dev-master"
+        "php": ">=5.3.0"
     }
 }
