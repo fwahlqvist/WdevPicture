@@ -1,5 +1,7 @@
 <?php
 // module/Picture/config/module.config.php
+namespace WdevPicture;
+
 return array(
   'controllers' => array(
       'invokables' => array(
