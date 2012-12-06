@@ -1,6 +1,7 @@
 {
     "name": "fwahlqvist/wdev-picture",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "fwahlqvist/wdev-picture": "dev-master"
     }
 }
