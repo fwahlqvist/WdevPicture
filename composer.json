@@ -1,5 +1,5 @@
 {
-    "name": "fwahlqvist/WdevPicture",
+    "name": "fwahlqvist/wdev-picture",
     "require": {
         "php": ">=5.3.0"
     }
